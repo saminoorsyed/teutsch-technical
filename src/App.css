@@ -46,7 +46,7 @@ html {
 }
 
 #calculator-input:focus {
-  background-color: rgb(122, 232, 247);
+  background-color: rgb(250, 210, 210);
 }
 
 .calculator-button {
@@ -61,6 +61,6 @@ html {
 }
 
 .calculator-button:hover {
-  background-color: rgb(122, 232, 247);
+  background-color: rgb(255, 199, 204);
   transform: scale(1.1);
 }
