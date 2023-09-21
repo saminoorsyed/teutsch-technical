@@ -21,11 +21,18 @@ function App(): JSX.Element {
     if (numbers.current === undefined) {
       numbers.current = ''
     }
-
     if (input.current.length === 0) {
       displayString.current = [numbers.current]
     } else {
       displayString.current = input.current.concat([numbers.current])
+    }
+    // report error to user
+    if (displayString.current.join('') === 'Infinity=') {
+      alert("either the resulting calculation is too large, or you divided by 0.")
+      // reset the input
+      numbers.current = ""
+      input.current = []
+      displayString.current = [""]
     }
     setScreenStr(displayString.current.join(''))
   }
