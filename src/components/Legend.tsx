@@ -10,10 +10,10 @@ function Legend() {
             <p className="directions">"+" = add</p>
             <p className="directions">"-"=subtract </p>
             <p className="directions"> "^"= exponent</p>
-            <p className="directions">"=" or "Enter"</p>
+            <p className="directions">"=" or "Enter" = compute formula</p>
             <p className="directions">"Esc" clears all input</p>
             <p className="directions">"Backspace" removes the last char</p>
-            <p className="directions">"n" multiply current number by -1</p>
+            <p className="directions">"n" multiplies current number by -1</p>
         </div>
         </>
     )
