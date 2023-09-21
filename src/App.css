@@ -86,3 +86,27 @@ html {
   background-color: rgb(255, 199, 204);
   transform: scale(1.1);
 }
+
+.directions-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  background: none;
+  border: solid black 1px;
+  padding: 15px;
+  font-size: large;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 1px rgba(var(--base-color-rgb), 0.25);
+  border: 2px solid rgba(var(--base-color-rgb), 0.4);
+  height:300px;
+  padding:40px;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+.directions{
+  border: solid black 1px;
+  border-radius: 6px;
+  padding: 15px;
+  text-align: center;
+  width: auto;
+}
