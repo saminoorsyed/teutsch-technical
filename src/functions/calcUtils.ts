@@ -75,7 +75,6 @@ export function compute(numbers: string, input: string[]) {
         const secondNum = parseFloat(input[index + 1]);
         if (operation in operations) {
             const interimResult: string = operations[operation](firstNum, secondNum).toFixed(2);
-            console.log(interimResult)
             input.splice(index, 2);
             input[index - 1] = interimResult.toString();
         }
