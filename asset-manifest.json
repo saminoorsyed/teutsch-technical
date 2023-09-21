@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/teutsch-technical/static/css/main.9d472ae6.css",
-    "main.js": "/teutsch-technical/static/js/main.2a6346bd.js",
+    "main.js": "/teutsch-technical/static/js/main.b73ef98b.js",
     "static/js/787.20439357.chunk.js": "/teutsch-technical/static/js/787.20439357.chunk.js",
     "static/media/teutsch.png": "/teutsch-technical/static/media/teutsch.d5ec95f870287bcb7c06.png",
     "index.html": "/teutsch-technical/index.html",
     "main.9d472ae6.css.map": "/teutsch-technical/static/css/main.9d472ae6.css.map",
-    "main.2a6346bd.js.map": "/teutsch-technical/static/js/main.2a6346bd.js.map",
+    "main.b73ef98b.js.map": "/teutsch-technical/static/js/main.b73ef98b.js.map",
     "787.20439357.chunk.js.map": "/teutsch-technical/static/js/787.20439357.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d472ae6.css",
-    "static/js/main.2a6346bd.js"
+    "static/js/main.b73ef98b.js"
   ]
 }
