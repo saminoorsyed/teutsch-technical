@@ -18,7 +18,8 @@ export default function InputBox({ handleInput, screenStr }: InputBoxProps): JSX
             key === 'Enter' ||
             key === 'Backspace' ||
             key === 'Escape' ||
-            key == 'n'
+            key === 'n'||
+            key === '.'
         ) {
             event.preventDefault(); // Prevent default behavior
 
